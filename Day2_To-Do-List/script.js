@@ -1,5 +1,7 @@
 const inputBox = document.getElementById('input-text');
 const listContainer = document.getElementById('list-container');
+const inputBtn = document.getElementById('inputBtn');
+
 
 function addTask(){
   if(inputBox.value === ""){
@@ -24,3 +26,9 @@ listContainer.addEventListener("click",(e)=>{
   }
 }, false);
 
+
+inputBox.addEventListener("keypress", (e)=>{
+  if(e.key === "Enter"){
+    addTask();
+  }
+} )
