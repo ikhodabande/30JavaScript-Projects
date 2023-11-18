@@ -27,6 +27,24 @@ body {
 }
 
 .quiz  {
+  padding: 20px 0;
+}
 
-  
+.quiz h2 {
+  font-size: 18px;
+  color: #001e4d;
+  font-weight: 600;
+}
+
+.btn {
+  background: #fff;
+  color: #222;
+  font-weight:500 ;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin:  10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
 }
