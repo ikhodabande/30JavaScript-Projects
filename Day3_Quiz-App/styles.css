@@ -49,7 +49,7 @@ body {
   cursor: pointer;
 }
 
-.btn:hover {
+.btn:hover:not([disabled]) {
   background: #222;
   color: #fff;
 }
