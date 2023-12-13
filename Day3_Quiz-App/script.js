@@ -63,6 +63,10 @@ function showQuestion(){
     button.innerHTML = ansewr.text ;
     button.classList.add("btn") ;
     ansewrButtons.appendChild(button);
+    if(ansewr.correct){
+      button.dataset.correct = ansewr.correct;
+    }
+    button.addEventListener("click", selectAnsewr);
      
   });
 }
@@ -73,6 +77,19 @@ function resetState(){
   while(ansewrButtons.firstChild){
     ansewrButtons.removeChild(ansewrButtons.firstChild)
   }
+}
+
+function selectAnsewr(e){
+ const selectedBtn = e.target ;
+ const isCorrect = selectedBtn.dataset.correct === "true";
+
+ if(isCorrect){
+  selectedBtn.classList.add("correct");
+ }
+ else {
+  selectedBtn.classList.add("incorrect");
+ }
+
 }
 
 
