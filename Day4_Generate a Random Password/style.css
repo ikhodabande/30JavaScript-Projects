@@ -52,3 +52,28 @@ body {
   flex: 1;
 
 }
+
+.container button img {
+  width: 20px;
+  margin-right:10px ;
+}
+
+.container button{
+  border: 0;
+  outline: 0;
+  background: #03904e;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 26px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.container button:hover {
+  background: #019f55;
+}
