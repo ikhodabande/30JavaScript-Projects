@@ -85,6 +85,7 @@ function selectAnsewr(e){
 
  if(isCorrect){
   selectedBtn.classList.add("correct");
+  score ++ ;
  }
  else {
   selectedBtn.classList.add("incorrect");
@@ -98,6 +99,20 @@ function selectAnsewr(e){
  nextButton.style.display = "block";
 
 }
+
+function showScore(){
+  resetState();
+  questionElement.innerHTML = `You Scored ${score} our of ${questions.length}!`
+}
+
+nextButton.addEventListener("click",()=>{
+  currentQuestionIndex ++;
+  if(currentQuestionIndex < questions.length){
+    showQuestion();
+  }else{
+    showScore();
+  }
+})
 
 
 startQuiz();
