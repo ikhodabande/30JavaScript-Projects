@@ -28,3 +28,14 @@ body {
   padding: 26px 20px;
   border-radius: 5px;
 }
+
+.container h1 {
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.container h1 span {
+  color: #019f55;
+  border-bottom: 4px solid #019f55;
+  padding-bottom: 7px;
+}
