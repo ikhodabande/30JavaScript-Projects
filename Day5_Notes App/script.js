@@ -6,6 +6,7 @@ let notes = document.querySelectorAll(".input-box");
 function showNotes(){
   notesContainer.innerHTML = localStorage.getItem("notes");
 }
+showNotes();
 
 function updateStorage(){
   localStorage.setItem("notes",notesContainer.innerHTML);
