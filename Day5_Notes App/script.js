@@ -33,4 +33,21 @@ notesContainer.addEventListener("click", (e)=>{
     e.target.parentElement.remove();
     updateStorage();
   }
+  else if(e.target.tagName === "P"){
+    notes = document.querySelectorAll(".input-box");
+    notes.forEach(nt => {
+      nt.onkeyup = function(){
+        updateStorage();
+      }
+    })
+  }
+})
+
+
+
+document.addEventListener("keydown",(e)=>{
+  if(e.key === "Enter"){
+    document.execCommand("insertLineBreak");
+    e.preventDefault();
+  }
 })
