@@ -42,3 +42,16 @@
   margin: 30px 0 20px;
   cursor: pointer;
 }
+
+.input-box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  background: #fff;
+  color: #333;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0px;
+  outline: none;
+}
