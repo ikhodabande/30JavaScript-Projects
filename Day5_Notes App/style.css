@@ -8,7 +8,7 @@
 .container {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient();
-  margin-left: 12%;
-  margin-bottom: 30%;
+  background: linear-gradient(90deg, rgba(121, 85, 72, 1) 0%, rgba(255, 87, 34, 1) 100%);
+  padding-top: 4%;
+  padding-left: 10%;
 }
