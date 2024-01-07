@@ -55,3 +55,11 @@
   margin: 20px 0px;
   outline: none;
 }
+
+.input-box img {
+  width: 25px;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  cursor: pointer;
+}
