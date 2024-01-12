@@ -1,1 +1,2 @@
-let userInput = document.getElementById("date")
+let userInput = document.getElementById("date");
+
