@@ -26,13 +26,14 @@ body {
 }
 
 .container input {
+  font-size: 15px;
   width: 100%;
   height: 50px;
   border:  1px solid #262a2f;
   outline: 0;
   padding: 10px;
-  margin: 10px 0 20px;
-  border-radius: 5px;
+  margin: 20px 0 5px;
+  border-radius: 2px;
 }
 
 .container button {
@@ -63,7 +64,7 @@ body {
 }
 
 #imgBox.show-img{
-  max-height: 300px;
+  max-height: 330px;
   margin: 10px auto ;
   border: 1px solid #d1d1d1;
 }
