@@ -72,3 +72,12 @@
   cursor: pointer;
 
 }
+
+#result {
+  font-size: 20px;
+}
+
+#result span {
+  color: #e0e312;
+  
+}
