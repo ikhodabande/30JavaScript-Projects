@@ -3,3 +3,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.buttons {
+  margin: 40px 30px;
+}
+
+.buttons button {
+  outline: 0;
+  padding: 10px 25px;
+  margin: 0 5px;
+  border: 0;
+  border-radius: 5px;
+  background: #1f1f1f;
+  color: #ffff;
+  cursor: pointer;
+}
+
