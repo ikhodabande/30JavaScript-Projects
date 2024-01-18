@@ -8,12 +8,13 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="buttons">
-    <button>Success</button>
-    <button>Error</button>
-    <button>Invslid</button>
+  <div id="buttons" class="buttons">
+    <button onclick="showToast(successMsg)">Success</button>
+    <button onclick="showToast(errorMsg)">Error</button>
+    <button onclick="showToast(InvalidMsg)">Invslid</button>
   </div>
-  <div class="toast"></div>
+  <div id="toastBox"></div>
+  <script src="./script.js"></script>
 </body>
-<script src="./script.js"></script>
+
 </html>

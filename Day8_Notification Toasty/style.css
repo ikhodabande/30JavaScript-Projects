@@ -19,3 +19,40 @@
   cursor: pointer;
 }
 
+#toastBox{
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.toast{
+  width: 400px;
+  height: 80px;
+  background: #fff;
+  color: #040404;
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  padding: 0 10px;
+  margin: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3) ;
+}
+
+
+.error {
+  background: red;
+}
+
+.disabled {
+  background: orange;
+}
+
+.active {
+  background: green;
+}
