@@ -1,7 +1,7 @@
 let toastBox = document.getElementById("toastBox")
-let successMsg = "<i class="fa-solid fa-circle-check"></i> Successfully Submitted";
-let errorMsg = "Please fix the error";
-let InvalidMsg = "Invalid Msg, try again!";
+let successMsg = "<i class='fa-solid fa-circle-check'></i>Successfully Submitted";
+let errorMsg = "<i class='fa-solid fa-circle-exclamation'></i> Please fix the error";
+let InvalidMsg = "<i class='fa-solid fa-circle-xmark'></i> Invalid Msg, try again!";
 
 
 function showToast(msg){
@@ -21,5 +21,9 @@ function showToast(msg){
     toast.classList.add('success')
   }
  
+
+  setTimeout(()=>{
+    toast.remove();
+  },6000);
   
 }
