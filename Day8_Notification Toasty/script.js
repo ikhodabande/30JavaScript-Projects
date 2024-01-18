@@ -1,5 +1,5 @@
 let toastBox = document.getElementById("toastBox")
-let successMsg = "Successfully Submitted";
+let successMsg = "<i class="fa-solid fa-circle-check"></i> Successfully Submitted";
 let errorMsg = "Please fix the error";
 let InvalidMsg = "Invalid Msg, try again!";
 
@@ -15,7 +15,10 @@ function showToast(msg){
     toast.classList.add('error')
   }
   if(msg.includes('Invalid')){
-    toast
+    toast.classList.add('Invalid')
+  }
+  if(msg.includes('Success')){
+    toast.classList.add('success')
   }
  
   
