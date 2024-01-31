@@ -39,6 +39,14 @@
   color: #333;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup{
+  top: 50%;
+  visibility: visible;
+  transform: translate(-50%,-50%) scale(1);
+
 }
 
 .popup img {
