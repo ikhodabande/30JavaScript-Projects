@@ -8,13 +8,41 @@
 </head>
 <body>
   <div class="stopwatch">
-    <h1>00:00:00</h1>
+    <h1 id="displayTime">00:00:00</h1>
     <div class="buttons">
       <img src="assets/stop.png" alt="">
-      <img src="assets/start.png" alt="">
+      <img src="assets/start.png" onclick="watchStart()">
       <img src="assets/reset.png" alt="">
     </div>
   </div>
   
+  <script>
+    let [seconds,minutes,hours] = [0,0,0];
+    let displayTime = document.getElementById("displayTime");
+    let Timer = null ;
+
+
+
+    function stopwath(){
+      seconds++;
+      if(seconds == 60){
+        seconds = 0;
+        minutes++;
+      if(minutes == 60){
+        minutes = 0;
+        hours++; 
+      }
+    }
+
+    function watchStart(){
+      if(Timer!= null )
+      {
+        clearInterval(null);
+      }
+      setInterval(stopwath,1000);
+    }
+
+    }
+  </script>
 </body>
 </html>
