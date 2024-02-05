@@ -17,6 +17,7 @@ body {
   padding: 10px 20px;
   margin: 300px auto;
   display: flex;
+  align-items: center;
 }
 
 .input-box input{
@@ -33,3 +34,4 @@ body {
    width: 35px;
    cursor: pointer;
 }
+
