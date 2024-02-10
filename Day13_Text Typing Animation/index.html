@@ -3,10 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dark Mode</title>
+  <title>Text Animation</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <div class="container">
+    <h1>I'm <span id="element"></span></h1>
+  </div>
   
+
+
+
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Coding.', 'Eating.' , 'Updating...'],
+      typeSpeed: 100,
+      backSpeed:50,
+      loop:true,
+    });
+  </script>
 </body>
 </html>
