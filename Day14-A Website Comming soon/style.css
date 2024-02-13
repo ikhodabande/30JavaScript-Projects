@@ -31,7 +31,7 @@
   font-size: 64px;
 }
 
-.content span {
+.content span:nth-child(1) {
   color: rgb(255, 0, 43);
 }
 
@@ -60,4 +60,9 @@
 
 .launch-time div {
   flex-basis: 100px;
+}
+
+.launch-time div p {
+  font-size: 60px;
+
 }
