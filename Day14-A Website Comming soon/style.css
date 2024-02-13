@@ -72,4 +72,17 @@
   position: absolute;
   right: 10%;
   bottom: 0;
+  animation: rocket 4s linear infinite;
+}
+
+@keyframes rocket {
+  0% {
+    bottom: 0%;
+    opacity: 0%;
+  }
+  100% {
+    bottom: 105%;
+    opacity: 100%;
+  }
+
 }
