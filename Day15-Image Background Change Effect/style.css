@@ -12,11 +12,19 @@
   background: #f3fbff;
 }
 
-img-box {
+.img-box {
 
   width: 60%;
   margin: auto;
   line-height: 0;
   background-image: url(background_change_img/background_change_img/background.png);
+  overflow: hidden;
+  position: relative;
+}
+
+.img-warp {
+  position: absolute;
+  left: 0;
+  top: 0;
   overflow: hidden;
 }
