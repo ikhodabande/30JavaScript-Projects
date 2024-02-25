@@ -13,7 +13,7 @@
 }
 
 .img-box {
-
+  position: relative;
   width: 60%;
   margin: auto;
   line-height: 0;
@@ -27,4 +27,23 @@
   left: 0;
   top: 0;
   overflow: hidden;
+}
+
+span {
+  width: 1px;
+  height: 100%;
+  cursor: ew-resize;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.arrow {
+  width: 40px;
+  position: absolute;
+  top: 50%;
+  margin-left: -20px;
+  margin-top: -20px;
+
 }

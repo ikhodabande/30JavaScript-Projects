@@ -13,12 +13,18 @@
       <div class="img-warp">
         <img src="./background_change_img/background_change_img/original.jpg" id="orginalImg" alt="">
       </div>
+    
+        <span id="line"><img src="./background_change_img/background_change_img/arrow.png" alt="" class="arrow"></span>
+      
     </div>
   </div>
   <script>
     var imgBox = document.querySelector(".img-box");
     var imgWarp = document.querySelector(".img-warp");
     var orginalImg = document.getElementById("orginalImg");
+    var line = document.getElementById("line")
+
+
 
     orginalImg.style.width = imgBox.offsetWidth + "px"
 
@@ -27,6 +33,7 @@
     imgBox.onmousemove = function(e){
       var boxWidth = (e.pageX - leftSpace) + "px";
       imgWarp.style.width = boxWidth ;
+      line.style.left = boxWidth;
 
     }
     
