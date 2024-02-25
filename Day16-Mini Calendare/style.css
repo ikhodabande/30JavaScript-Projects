@@ -8,4 +8,42 @@
   width: 100%;
   min-height: 100vh;
   background: linear-gradient(90deg, hsla(197, 14%, 57%, 1) 0%, hsla(192, 17%, 94%, 1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.calendare {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 250px;
+  border-radius: 10px;
+  background: #fff;
+  
+}
+
+.right, .left {
+ 
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  flex-direction: column;
+  
+}
+
+.right {
+  width: 58%;
+  background: rgb(3, 108, 255);
+  color: #fff;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.left {
+  width: 42%;
+}
+
