@@ -11,15 +11,22 @@
     <div class="img-box">
       <img src="./background_change_img/background_change_img/transparent.png" width="100%" alt="">
       <div class="img-warp">
-        <img src="./background_change_img/background_change_img/original.jpg" width="100%" alt="">
+        <img src="./background_change_img/background_change_img/original.jpg" id="orginalImg" alt="">
       </div>
     </div>
   </div>
   <script>
     var imgBox = document.querySelector(".img-box");
     var imgWarp = document.querySelector(".img-warp");
+    var orginalImg = document.getElementById("orginalImg");
+
+    orginalImg.style.width = imgBox.offsetWidth + "px"
+
+    var leftSpace = imgBox.offsetLeft;
 
     imgBox.onmousemove = function(e){
+      var boxWidth = (e.pageX - leftSpace) + "px";
+      imgWarp.style.width = boxWidth ;
 
     }
     
