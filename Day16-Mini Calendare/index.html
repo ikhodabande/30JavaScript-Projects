@@ -10,15 +10,36 @@
   <div class="hero">
     <div class="calendare">
       <div class="right">
-        <p>janurary</p> 
-        <p>2024</p>
+        <p id="month">janurary</p> 
+        <p id="year">2024</p>
       </div>
       <div class="left">
-        <p>sunday</p>
-        <p>24</p>
+        <p id="date">24</p>
+        <p id="day">sunday</p>
+        
       </div>
     </div>
   </div>
+
+  <script>
+   const year = document.getElementById("year");
+   const month = document.getElementById("month");
+   const day = document.getElementById("day");
+   const date = document.getElementById("date");
+
+   const today = new Date();
+
+   const weekDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+   const allMonth = ["January","February","March","April","May","June","July","August","September","October","November","December"]
+
+   date.innerHTML = today.getDate();
+   day.innerHTML = weekDays[today.getDay()];
+   month.innerHTML = allMonth[today.getMonth()];
+   year.innerHTML = today.getFullYear();
+
+
+
+  </script>
   
 </body>
 </html>
