@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Select Menu List</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -12,32 +12,32 @@
 
     <div class="select">
       <div class="selectField">
-        <p>Select Social Media</p>
-        <img src="./SelectMenu_Img/SelectMenu_Img/arrow.png" alt="">
+        <p id="selectText">Select Social Media</p>
+        <img src="./SelectMenu_Img/SelectMenu_Img/arrow.png" id="arrow" alt="">
       </div>
 
       <ul id="list">
-        <li class="option">
+        <li class="options">
           <img src="./SelectMenu_Img/SelectMenu_Img/facebook.png" alt="">
           <p>facebook</p>
         </li>
-        <li class="option">
+        <li class="options">
           <img src="./SelectMenu_Img/SelectMenu_Img/instagram.png" alt="">
           <p>instagram</p>
         </li>
-        <li class="option">
+        <li class="options">
           <img src="./SelectMenu_Img/SelectMenu_Img/twitter.png" alt="">
           <p>twitter</p>
         </li>
-        <li class="option">
+        <li class="options">
           <img src="./SelectMenu_Img/SelectMenu_Img/pinterest.png" alt="">
           <p>pinterest</p>
         </li>
-        <li class="option">
+        <li class="options">
           <img src="./SelectMenu_Img/SelectMenu_Img/whatsapp.png" alt="">
           <p>whatsapp</p>
         </li>
-        <li class="option">
+        <li class="options">
           <img src="./SelectMenu_Img/SelectMenu_Img/youtube.png" alt="">
           <p>youtube</p>
         </li>
@@ -48,6 +48,30 @@
     
 
   </div>
+
+  <script>
+    var selectField = document.getElementsByClassName("selectField");
+    var selectText = document.getElementById("selectText");
+    var options = document.getElementsByClassName("option");
+    var list = document.getElementById("list");
+    var arrowIcone = document.getElementById("arrow");
+
+
+    for(option of options){
+      option.onClick = function(){
+        selectText.innerHTML = "this.textContent";
+        // list.classList.toggle("hide");
+      } 
+    }
+
+    // document.addEventListener("click",(e)=>{
+    //   if(e.target = options ){
+    //     selectText.innerHTML = options.textContent;
+    //     // console.log(options.textContext)
+    //   }
+    // })
+
+  </script>
   
 </body>
 </html>

@@ -42,7 +42,7 @@
   overflow: hidden;
 }
 
-.option{
+.options{
   width: 100%;
   padding: 15px 0px 15px 70px;
   position: relative;
@@ -50,13 +50,17 @@
   cursor: pointer;
 }
 
-.option img {
+.options img {
  width: 25px;
  position: absolute;
  top: 12px;
  left: 25px;
 }
 
-.option:hover{
+.options:hover{
   background: #fff;
+}
+
+.hide {
+  visibility: hidden;
 }
