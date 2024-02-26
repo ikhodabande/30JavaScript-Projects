@@ -3,3 +3,60 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.select {
+  width: 350px;
+}
+
+.selectField {
+  width: 100%;
+  height: 50px;
+  padding: 5px 15px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content:space-between;
+  border-radius: 5px;
+  align-items: center;
+  background: #fde1f1;
+  cursor: pointer;
+}
+
+.selectField img{
+  width: 12px;
+}
+
+#list {
+  width: 100%;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background: #fde1f1;
+  overflow: hidden;
+}
+
+.option{
+  width: 100%;
+  padding: 15px 0px 15px 70px;
+  position: relative;
+  list-style: none;
+  cursor: pointer;
+}
+
+.option img {
+ width: 25px;
+ position: absolute;
+ top: 12px;
+ left: 25px;
+}
+
+.option:hover{
+  background: #fff;
+}
