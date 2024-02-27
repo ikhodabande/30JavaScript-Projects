@@ -56,6 +56,12 @@
     var arrowIcone = document.getElementById("arrow");
 
 
+
+    arrowIcone.onClick = function(){
+      list.classList.toggle("hide");
+    }
+
+
     
     document.addEventListener("click",(e)=>{
        const response = e.target.textContent ;
