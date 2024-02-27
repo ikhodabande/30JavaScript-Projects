@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Select Menu List</title>
   <link rel="stylesheet" href="./style.css">
+  
 </head>
 <body>
 
@@ -18,59 +19,75 @@
       <ul id="list" class="hide">
         <li class="options">
           <img src="./SelectMenu_Img/SelectMenu_Img/facebook.png" alt="">
-          <p>facebook</p>
+          <p class="social">facebook</p>
         </li>
         <li class="options">
           <img src="./SelectMenu_Img/SelectMenu_Img/instagram.png" alt="">
-          <p>instagram</p>
+          <p class="social">instagram</p>
         </li>
         <li class="options">
           <img src="./SelectMenu_Img/SelectMenu_Img/twitter.png" alt="">
-          <p>twitter</p>
+          <p class="social">twitter</p>
         </li>
         <li class="options">
           <img src="./SelectMenu_Img/SelectMenu_Img/pinterest.png" alt="">
-          <p>pinterest</p>
+          <p class="social">pinterest</p>
         </li>
         <li class="options">
           <img src="./SelectMenu_Img/SelectMenu_Img/whatsapp.png" alt="">
-          <p>whatsapp</p>
+          <p class="social">whatsapp</p>
         </li>
         <li class="options">
           <img src="./SelectMenu_Img/SelectMenu_Img/youtube.png" alt="">
-          <p>youtube</p>
+          <p class="social">youtube</p>
         </li>
       </ul>
     </div>
     
       
-    
+    <script>
+      
+var selectField = document.getElementsByClassName("selectField");
+var selectText = document.getElementById("selectText");
+var options = document.getElementsByClassName("options");
+var list = document.getElementById("list");
+
+
+ window.addEventListener("click",(e)=>{
+  if(e.target.id = "arrow"){
+    list.classList.toggle("hide");
+  }
+
+})
+
+
+
+
+  window.addEventListener("click",(e)=>{
+  const response = e.target.innerText;
+  if(response === "facebook"){
+    selectText.innerHTML = response;
+  }if(response === "instagram"){
+    selectText.innerHTML = response;
+  }if(response === "twitter"){
+    selectText.innerHTML = response;
+  }if(response === "pinterest"){
+    selectText.innerHTML = response;
+  }if(response === "whatsapp"){
+    selectText.innerHTML = response;
+  }if(response === "youtube"){
+    selectText.innerHTML = response;
+  }
+  
+});
+  
+
+
+    </script>
 
   </div>
 
-  <script>
-    var selectField = document.getElementsByClassName("selectField");
-    var selectText = document.getElementById("selectText");
-    var options = document.getElementsByClassName("option");
-    var list = document.getElementById("list");
-    var arrowIcone = document.getElementById("arrow");
-
-
-
-    arrowIcone.onClick = function(){
-      list.classList.toggle("hide");
-    }
-
-
-    
-    document.addEventListener("click",(e)=>{
-       const response = e.target.textContent ;
-      console.log(response)
-      selectText.innerHTML = response;
-    
-    })
-
-  </script>
+ 
   
 </body>
 </html>
