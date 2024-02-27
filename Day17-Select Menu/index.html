@@ -9,14 +9,13 @@
 <body>
 
   <div class="container">
-
     <div class="select">
       <div class="selectField">
         <p id="selectText">Select Social Media</p>
         <img src="./SelectMenu_Img/SelectMenu_Img/arrow.png" id="arrow" alt="">
       </div>
 
-      <ul id="list">
+      <ul id="list" class="hide">
         <li class="options">
           <img src="./SelectMenu_Img/SelectMenu_Img/facebook.png" alt="">
           <p>facebook</p>
@@ -57,19 +56,13 @@
     var arrowIcone = document.getElementById("arrow");
 
 
-    for(option of options){
-      option.onClick = function(){
-        selectText.innerHTML = "this.textContent";
-        // list.classList.toggle("hide");
-      } 
-    }
-
-    // document.addEventListener("click",(e)=>{
-    //   if(e.target = options ){
-    //     selectText.innerHTML = options.textContent;
-    //     // console.log(options.textContext)
-    //   }
-    // })
+    
+    document.addEventListener("click",(e)=>{
+       const response = e.target.textContent ;
+      console.log(response)
+      selectText.innerHTML = response;
+    
+    })
 
   </script>
   
