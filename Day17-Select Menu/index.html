@@ -53,14 +53,6 @@ var options = document.getElementsByClassName("options");
 var list = document.getElementById("list");
 
 
- window.addEventListener("click",(e)=>{
-  if(e.target.id = "arrow"){
-    list.classList.toggle("hide");
-  }
-
-})
-
-
 
 
   window.addEventListener("click",(e)=>{
@@ -77,8 +69,10 @@ var list = document.getElementById("list");
     selectText.innerHTML = response;
   }if(response === "youtube"){
     selectText.innerHTML = response;
+  } if(e.target.id = "arrow"){
+    list.classList.toggle("hide");
   }
-  
+
 });
   
 
