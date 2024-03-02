@@ -40,3 +40,19 @@
   padding-left: 60px;
   box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1)
 }
+
+.details h1{
+  font-size: 35px;
+  color: #333;
+}
+
+.details h2 {
+  color: #555;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.details h3 {
+  color:red ;
+  margin-bottom: 20px;
+}
