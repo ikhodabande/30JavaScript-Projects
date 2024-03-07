@@ -94,3 +94,37 @@ form {
   margin-right: 10px;
 }
 
+.color-select {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.color-select p {
+  width: 75px;
+}
+
+.color-select span {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.color-1 {
+  background-color: red;
+}
+
+.color-2 {
+  background-color: green;
+}
+
+.color-3 {
+  background-color: blue;
+}
+
+.color-4 {
+  background-color: pink;
+}
