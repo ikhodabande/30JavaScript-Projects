@@ -176,3 +176,25 @@ form button {
   box-shadow: 0 10px 10px rgba(85, 63, 248, 0.25);
   cursor: pointer;
 }
+
+form button:hover{
+  background: #fdfdfd;
+  color: #000;
+  transition: 1s;
+}
+
+.controls {
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+}
+
+.btn {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255,0.5);
+  margin: 10px;
+  cursor: pointer;
+}
