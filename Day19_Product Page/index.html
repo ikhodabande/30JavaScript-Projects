@@ -10,7 +10,7 @@
   <div class="container">
     <div class="product">
       <div class="gallery">
-        <img src="./432 product-img/image1.png" alt="" id="btn">
+        <img src="./432 product-img/image1.png" alt="" id="productImg">
         <div class="controls">
           <span class="btn active"></span>
           <span class="btn"></span>
@@ -88,15 +88,30 @@
     let btn = document.getElementsByClassName("btn");
 
     btn[0].onclick = function(){
-      productImg.src = "./432 product-img/image1.png"
+      productImg.src = "./432 product-img/image1.png";
+
+      for(bt of btn){
+        bt.classList.remove("active");
+      }
+      this.classList.add("active");
     }
 
     btn[1].onclick = function(){
-      productImg.src = "./432 product-img/image2.png"
+      productImg.src = "./432 product-img/image2.png";
+
+      for(bt of btn){
+        bt.classList.remove("active");
+      }
+      this.classList.add("active");
     }
 
     btn[2].onclick = function(){
-      productImg.src = "./432 product-img/image3.png"
+      productImg.src = "./432 product-img/image3.png";
+
+      for(bt of btn){
+        bt.classList.remove("active");
+      }
+      this.classList.add("active");
     }
   </script>
 </body>
