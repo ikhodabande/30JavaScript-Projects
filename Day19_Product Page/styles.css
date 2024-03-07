@@ -83,6 +83,10 @@ form {
   
 }
 
+.size-select input:not(:checked) + span {
+  color: rgba(0, 0, 0,0.3);
+}
+
 .size-select input {
   display: none;
   
@@ -97,11 +101,12 @@ form {
 .color-select {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .color-select p {
   width: 75px;
+  font: bold;
 }
 
 .color-select span {
@@ -127,4 +132,13 @@ form {
 
 .color-4 {
   background-color: pink;
+}
+
+.color-select input {
+  display: none;
+}
+
+.color-select input:checked + span {
+  transform: scale(0.7);
+  box-shadow: 0 0 0 4px #fff, 0 0 0 6px #000;
 }
