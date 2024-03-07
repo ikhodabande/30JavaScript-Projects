@@ -25,7 +25,7 @@
   transform: scale(1.08);
   box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
   position: relative;
-  
+
 }
 
 .gallery img {
@@ -199,4 +199,10 @@ form button:hover{
   background: rgba(255, 255, 255,0.5);
   margin: 10px;
   cursor: pointer;
+}
+
+
+.btn.active {
+  background: #553ff0;
+  transform: scale(1.1);
 }
