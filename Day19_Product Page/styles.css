@@ -106,7 +106,6 @@ form {
 
 .color-select p {
   width: 75px;
-  font: bold;
 }
 
 .color-select span {
@@ -141,4 +140,24 @@ form {
 .color-select input:checked + span {
   transform: scale(0.7);
   box-shadow: 0 0 0 4px #fff, 0 0 0 6px #000;
+}
+
+
+.quantity-select{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.quantity-select p{
+  width: 75px;
+}
+
+.quantity-select input{
+  background: #eee;
+  border: 0;
+  outline: 0;
+  padding: 2px 2px 2px 15px;
+  width: 50px;
+  border-radius: 12px;
 }
