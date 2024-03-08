@@ -49,3 +49,16 @@ nav .btn {
   border-radius: 30px;
   padding: 10px 30px;
 }
+
+
+.content {
+  margin-top: 12%;
+}
+
+.content h1 {
+  font-size: 88px;
+}
+
+.content h1 span {
+  color: rgb(234, 137, 11);
+}
