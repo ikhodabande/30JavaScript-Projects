@@ -4,18 +4,14 @@
   box-sizing: border-box;
 }
 
-body{
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,10,125,1) 100%);
-}
-
 .container {
  width: 100%;
- max-width: 700px;
- margin: 0 auto;
- height: 100vh;
+ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,10,125,1) 100%);
+ min-height: 100vh;
  display: flex;
  flex-direction: column;
  align-items: center;
+ justify-content: center;
  color: #fff;
 }
    
@@ -27,7 +23,7 @@ body{
   margin-bottom: 50px;
 }
 
-.hero h1 span{
+.container h1 span{
   color:#ff2963;
 }
 
