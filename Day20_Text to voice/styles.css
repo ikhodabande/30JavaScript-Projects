@@ -5,7 +5,7 @@
 }
 
 body{
-  background: #FFA931;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,10,125,1) 100%);
 }
 
 .container {
@@ -16,5 +16,24 @@ body{
  display: flex;
  flex-direction: column;
  align-items: center;
+ color: #fff;
+}
+   
+
+.container h1{
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: -50px;
+  margin-bottom: 50px;
 }
 
+.hero h1 span{
+  color:#ff2963;
+}
+
+textarea{
+  width: 600px;
+  height: 250px;
+  background: #403d84;
+  
+}
