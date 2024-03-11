@@ -35,10 +35,35 @@ textarea{
   font-size: 15px;
   border: 0;
   outline: 0;
-  padding: 15px;
+  padding: 20px;
   border-radius: 10px;
   resize: none;
   margin-bottom: 30px;
-
 }
 
+
+ textarea::placeholder {
+  font-size: 15px;
+  color: #ddd;
+ }
+
+ .row{
+  width: 600px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+ }
+
+ button{
+  padding: 10px 30px;
+  color: #fff;
+  background: #ff2963;
+  border-radius: 30px;
+  border: 0;
+  outline: 0;
+ }
+
+ .row select{
+  
+
+ }
