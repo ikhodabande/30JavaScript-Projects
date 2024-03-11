@@ -37,6 +37,8 @@ textarea{
   outline: 0;
   padding: 15px;
   border-radius: 10px;
-}
+  resize: none;
+  margin-bottom: 30px;
 
+}
 
