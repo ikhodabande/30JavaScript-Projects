@@ -68,3 +68,43 @@ nav .btn {
   font-size: 14px;
   line-height: 22px;
 }
+
+.content .btn {
+  display: inline-block;
+  margin-top: 30px;
+  background:#ff960b;
+  color: #fff;
+  padding: 15px 30px ;
+  border-radius:30px;
+  text-decoration: none;
+}
+
+.coin-list {
+  position: absolute;
+  right: 10%;
+  bottom:50px;
+  display: flex;
+  align-items: center;
+
+}
+
+.coin {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin: 0 15px;
+  color: #ff960b;
+  border: 1px solid #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+}
+
+.coin img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.coin h3 {
+  color: #fff;
+  margin-bottom: 5px;
+}
