@@ -8,9 +8,19 @@
 .container {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient();
+  background: linear-gradient(90deg, rgba(59,0,79,1) 0%, rgba(0,148,204,1) 100%);
   position: relative;
   color: #fff;
 }
 
+.clock {
+  width: 800px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: red;
+}
 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
