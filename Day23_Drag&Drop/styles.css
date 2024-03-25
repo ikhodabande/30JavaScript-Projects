@@ -30,3 +30,8 @@
   cursor: grab;
 }
 
+.list img {
+  width: 10px;
+  margin-right: 15px;
+  margin-left: 20px;
+}
