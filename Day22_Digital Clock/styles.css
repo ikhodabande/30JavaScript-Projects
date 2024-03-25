@@ -20,6 +20,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  
 }
 
 .clock{
@@ -30,6 +31,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  backdrop-filter: blur(40px);
 }
 
+.containes::before{
+  content: '';
+  width: 180px;
+  height: 180px;
+  background: #f41b75;
+  border-radius: 5px;
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  z-index: -1;
+}
+
+.containes::after {
+  content: '';
+  width: 180px;
+  height: 180px;
+  background:#419aff ;
+  border-radius: 50%;
+  position: absolute;
+  right: -30px;
+  bottom:-50px;
+  z-index: -1;
+}
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
