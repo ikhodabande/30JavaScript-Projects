@@ -7,7 +7,7 @@
 .container{
   width: 100%;
   min-height: 100vh;
-  background: #413000;
+  background: #0b0929;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,3 +19,14 @@
   margin: 20px;
   border: 2px dashed #fff;
 }
+
+.list {
+  background: #e91e63;
+  height: 60px;
+  margin: 30px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  cursor: grab;
+}
+
