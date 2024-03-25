@@ -74,14 +74,14 @@
   transform: translateX(-50%);
 }
 
-#hr::after{
+#hrs::after{
   content: 'Hour';
 }
 
-#mn::after{
+#min::after{
   content: 'Minutes';
 }
 
-#se::after{
+#sec::after{
   content: 'Seconds';
 }
