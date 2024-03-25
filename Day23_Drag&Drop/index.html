@@ -20,8 +20,41 @@
   
 
   <script>
+    let lists = document.getElementsByClassName("list");
+    let rightBox = document.getElementById("right");
+    let leftBox = document.getElementById("left");
 
-    
+
+    for(list of lists){
+      list.addEventListener("dragstart" , (e)=>{
+        let selectedList = e.target;
+
+        //drag from right to left
+
+
+        rightBox.addEventListener("dragover",(e)=>{
+          e.preventDefault();
+        });
+
+        rightBox.addEventListener("drop",(e)=>{
+          rightBox.appendChild(selectedList);
+          selectedList = null;
+        });
+          
+        //drag from left to right list
+  
+        leftBox.addEventListener("dragover",(e)=>{
+          e.preventDefault();
+        });
+
+        leftBox.addEventListener("drop",(e)=>{
+          leftBox.appendChild(selectedList);
+          selectedList = null;
+        });
+      });
+    }
+
+
   </script>
 </body>
 </html>
