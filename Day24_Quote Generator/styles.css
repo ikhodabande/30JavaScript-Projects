@@ -25,3 +25,19 @@ body {
   font-family: "Playfair Display", serif;
 }
 
+.quote-box h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.quote-box h2::after {
+  content: '';
+  width: 75px;
+  height: 3px;
+  border-radius: 3px;
+  background: rgb(23, 124, 229);
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
