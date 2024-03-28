@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap')
+
+
 *{
   margin: 0;
   padding: 0;
@@ -19,4 +22,6 @@ body {
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+  font-family: "Playfair Display", serif;
 }
+
