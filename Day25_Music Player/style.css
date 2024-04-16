@@ -98,6 +98,10 @@ nav .circle {
   cursor: pointer;
 }
 
+.controls div i{
+  padding: 22px;
+}
+
 .controls div:nth-child(2){
   transform: scale(1.2);
   background: #f53192;
