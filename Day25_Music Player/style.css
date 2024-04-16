@@ -11,11 +11,47 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .musicPlayer {
   background:#ffffff;
   width: 400px;
   padding: 25px 35px;
+  text-align: center;
+}
 
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:30px;
+}
+
+nav .circle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: #fff;
+  color:#f53192;
+  box-shadow: 0 5px 10px rgba(255,26,26,0.22);
+}
+
+.songImg {
+  width: 220px;
+  border-radius: 50%;
+  border: 8px solid #fff;
+  box-shadow: 0 10px 60px rgba(255,26,26,0.22)
+}
+
+.musicPlayer h1 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
+  margin-top: 30px;
+}
+
+.musicPlayer p {
+  font-size: 14px;
+  color: #333;
 }
