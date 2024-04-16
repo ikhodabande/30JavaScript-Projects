@@ -7,5 +7,46 @@
 .container {
   width: 100%;
   height: 100vh;
-  background: #b8def7;
+  background: #cde7f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.calculator {
+  background: #3a4452;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.calculator form input{
+  border: none;
+  outline: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+  background: transparent;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+}
+
+form .display{
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+
+form .display input {
+  text-align: right;
+  flex: 1;
+  font-size: 45px;
+  box-shadow: none;
+}
+
+form .input .equal {
+  width: 145px;
+}
+
