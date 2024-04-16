@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap')
 
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -37,7 +37,53 @@ body {
   border-radius: 3px;
   background: rgb(23, 124, 229);
   position: absolute;
-  bottom: -10px;
+  top: 120px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+
+.quote-box blockquote {
+  font-size: 26px;
+  min-height: 110px
+}
+
+.quote-box blockquote::before,.quote-box blockquote::after {
+  content: '';
+}
+
+.quote-box span {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+
+}
+
+.quote-box span::before{
+  content: '';
+  width: 20px;
+  height: 2px;
+  border-radius: 3px;
+  background: rgb(23, 124, 229);
+  position: absolute;
+  right: 80px;
+  bottom: 5px;
+
+}
+
+
+.quote-box div {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-box button {
+  background: rgb(23, 124, 229);
+  color: #fff ;
+  border-radius: 25px;
+  border: 1px solid rgb(23, 124, 229);
+  width: 150px;
+  
 }
