@@ -77,3 +77,29 @@ nav .circle {
   border: 3px solid #fff;
   box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22);
 }
+
+.controls{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls div {
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+  background: #fff;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  border-radius:50%;
+  color: #f53192;
+  box-shadow: 0 10px 20px rgba(255, 26, 26, 0.22);
+  cursor: pointer;
+}
+
+.controls div:nth-child(2){
+  transform: scale(1.2);
+  background: #f53192;
+  color: #fff;
+}
