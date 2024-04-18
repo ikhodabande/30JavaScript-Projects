@@ -3,3 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  background: #e3edf7;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skill {
+  width: 100px;
+  height: 160px;
+  /* background: cornflowerblue; */
+  position: relative;
+}
+
+.outer{
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+
+.inner {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 1px solid red;
+}
