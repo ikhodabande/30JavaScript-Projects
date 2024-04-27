@@ -3,10 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Website Dark Mode</title>
+  <title>website dark/light toggle</title>
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  
+  <div class="container">
+    <nav>
+      <img src="./Assets/Logo.png" class="logo" alt="">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Portfolio</a></li>
+        <li><a href="">CV</a></li>
+        <li><a href="">Hire ME</a></li>
+      </ul>
+      <img src="./Assets/dark theme icon/moon.png" id="icon"  alt="" class="icon">
+    </nav>
+    <div></div>
+    <div class="info">
+       <h1>I`m <span>AmirMohammad Khodabande</span></h1>
+       <p>Front-end Developer</p>
+       <a href="">Download CV</a>
+    </div>
+    <div class="imgBox">
+      <img class="backImg" src="./Assets/pattern.png" alt="">
+      <img class="frontImg" src="./Assets/profileImg.png" alt="">
+    </div>
+  </div>
+
+
+
+  <script>
+
+  var icon = document.getElementById("icon");
+
+  icon.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+      icon.src = './assets/dark theme icon/sun.png';
+    }else{
+      icon.src = './assets/dark theme icon/moon.png';
+    }
+  }
+  </script>
 </body>
 </html>
