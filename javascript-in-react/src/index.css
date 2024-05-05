@@ -1,0 +1,87 @@
+:root {
+  --primary-background-color : #fff;
+  --primary-text-color: #959595;
+  --body-background-color: #FCDC2A;
+}
+
+
+#dark-theme {
+  --primary-background-color : #353535;
+  --primary-text-color: #e5e5e5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  width: 100%;
+  height: 50px;
+  background: var(--primary-background-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar h1{
+  font-size: 24px;
+}
+
+.navbar span{
+  background: var(--body-background-color);
+  padding: 1px 2px;
+}
+
+.navbar ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar li {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+   background: var(--primary-background-color);
+} 
+
+.home{
+  width: 100%;
+  height: 90vh;
+  max-width: 1000px;
+  padding: 10px 20px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+}
+
+.home h2{
+  font-size: 4rem;
+}
+
+.home h2>span{
+  color: var(--body-background-color);
+  font-size: 5rem;
+}
+
+.Projects {
+  width: 100%;
+  height: 100vh;
+  max-width: 1000px;
+  padding: 20px 15px;
+  background: var(--primary-background-color);
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  gap: 8px;
+  border-radius: 5px;
+}
