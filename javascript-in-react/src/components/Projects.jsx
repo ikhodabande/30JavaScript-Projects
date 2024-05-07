@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import weatherapp from '../assets/weather app.jpg'
 import todo from '../assets/to do list.jpg'
 import time from '../assets/time.jpg'
@@ -30,6 +30,13 @@ import agecalculator from '../assets/age caculater.jpg'
 import popup from '../assets/a popup.jpg'
 
 const Projects = () => {
+
+  const [showMore, setShowMore] = useState(false);
+
+  const toggleProjects = () => {
+    setShowMore(!showMore);
+  };
+
   return (
     <div className='container'>
        <div className='Projects'>
@@ -70,7 +77,96 @@ const Projects = () => {
         <span>Pass Generator</span>
       </div>
     </div>
+    {showMore && (
+    <div id='more' className='Projects '>
+      <div className='cards' >
+        <img className='img' src={weatherapp} alt="" />
+        <span>Weather App</span>
+      </div>
+      <div className='cards'>
+        <img className='img' src={todo} />
+        <span>ToDo List</span>
+      </div>
+      <div className='cards'>
+        <img className='img' src={time} />
+        <span>Live Clock</span>
+      </div>
+      <div className='cards'>
+        <img className='img' src={texttovoice}/>
+        <span>Text to Voice</span>
+      </div>
+      <div className='cards'>
+        <img className='img' src={texttype} />
+        <span>Typing Effect</span>
+      </div>
+      <div className='cards'>
+        <img className='img' src={stopwatch} />
+        <span>StopWatch</span>
+      </div>
+      <div className='cards'>
+        <img className='img' src={selectmenu} />
+        <span>Select Menu</span>
+      </div>
+      <div className='cards'>
+        <img className='img' src={searchimg}/>
+        <span>Images Searcher</span>
+      </div>
+      <div className='cards'>
+        <img className='img' src={randompass} />
+        <span>Pass Generator</span>
+      </div>
+      <div className='cards' >
+        <img className='img' src={weatherapp} alt="" />
+        <span>Weather App</span>
+      </div>
+      <div className='cards'>
+        <img className='img' src={todo} />
+        <span>ToDo List</span>
+      </div>
+      <div className='cards'>
+        <img className='img' src={time} />
+        <span>Live Clock</span>
+      </div>
+      <div className='cards'>
+        <img className='img' src={texttovoice}/>
+        <span>Text to Voice</span>
+      </div>
+      <div className='cards'>
+        <img className='img' src={texttype} />
+        <span>Typing Effect</span>
+      </div>
+      <div className='cards'>
+        <img className='img' src={stopwatch} />
+        <span>StopWatch</span>
+      </div>
+      <div className='cards'>
+        <img className='img' src={selectmenu} />
+        <span>Select Menu</span>
+      </div>
+      <div className='cards'>
+        <img className='img' src={searchimg}/>
+        <span>Images Searcher</span>
+      </div>
+      <div className='cards'>
+        <img className='img' src={randompass} />
+        <span>Pass Generator</span>
+      </div>
+      <div className='cards'>
+        <img className='img' src={selectmenu} />
+        <span>Select Menu</span>
+      </div>
+      <div className='cards'>
+        <img className='img' src={searchimg}/>
+        <span>Images Searcher</span>
+      </div>
+      <div className='cards'>
+        <img className='img' src={randompass} />
+        <span>Pass Generator</span>
+      </div>
     </div>
+)}
+    <button  onClick={toggleProjects}>{showMore ? 'See Less' : 'See More'}</button>
+  </div>
   )
 }
 

@@ -4,9 +4,13 @@ const Home = () => {
   return (
     <div className='container'>
       <div className='home'>
-        <h2><span>30</span>Javascript Projects</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi accusamus sapiente, vero sint consequatur ipsum consectetur aliquid culpa blanditiis tempora aliquam dolorum commodi incidunt, vel voluptas. Dolorum hic aliquid facere?</p>
-      </div>
+        <div className='flex'>
+          <h2><span>30</span></h2>
+          <h2>Javascript</h2>
+          <h3>Projects</h3>
+        </div>
+        <p>Explore 30 JavaScript projects tailored for all skill levels, covering web development, interactive UIs, and data manipulation. <br /> Join our vibrant community, ignite your creativity, and embark on a journey of JavaScript mastery today!</p>
+         </div>
     </div>
   )
 }
