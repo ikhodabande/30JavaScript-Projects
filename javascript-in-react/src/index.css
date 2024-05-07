@@ -86,8 +86,42 @@
   border-radius: 5px;
 }
 
+.cards{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: inset;
+  border: #FCDC2A 8px solid;
+
+  &:hover{
+    cursor: pointer;
+    scale: 1.2;
+    transition: all 0.25s ease-in;
+  }
+}
+
+
+.Projects:has(.cards:hover) .cards:not(:hover){
+  scale: 0.9;
+  opacity: 0.8;
+  filter: blur(4px);
+}
+
 .img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+
+.cards span{
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+  padding: 5px 20px;
+  background: #000000d8;
+  color: #fff;
+  font-size: 20px;
 }
