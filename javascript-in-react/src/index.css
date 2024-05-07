@@ -44,8 +44,17 @@
 .navbar li {
   padding: 5px 10px;
   margin: 0 5px;
-  border-radius: 5px;
+  
+
+  &:hover{
+    cursor: pointer;
+    color: #a08801;
+    transition: color .5s, border-bottom .1s;
+    border-bottom: 2px solid #fdd700;
+  }
 }
+
+
 
 .container{
   width: 100%;

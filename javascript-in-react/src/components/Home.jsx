@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='container'>
+    <div name="Home" className='container'>
       <div className='home'>
         <div className='flex'>
           <h2><span>30</span></h2>

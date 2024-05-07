@@ -38,7 +38,7 @@ const Projects = () => {
   };
 
   return (
-    <div className='container'>
+    <div name="Projects" className='container'>
        <div className='Projects'>
       <div className='cards' >
         <img className='img' src={weatherapp} alt="" />
