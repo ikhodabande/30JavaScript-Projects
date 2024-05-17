@@ -1,5 +1,7 @@
 # Welcome to 30 Days JavaScript Homepage! 🚀
 
+<img src="https://github.com/ikhodabande/30JavaScript-Projects/blob/main/javascript-in-react/src/assets/30Projects.png"/>
+
 At 30 Days JavaScript, we're dedicated to showcasing a diverse range of innovative projects designed to inspire and empower users. Whether you're a seasoned developer looking for new challenges or a curious enthusiast exploring the world of technology, our homepage is your gateway to a wealth of creativity and functionality. 🌟
 
 ## Discover Exciting Projects: 🎉
