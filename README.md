@@ -1,4 +1,4 @@
-# Welcome to 30 Days JavaScript Homepage! 🚀
+# Welcome to 30 Days JavaScript Homepage! 🚀<sup>For Free!<sup/>
 
 <img src="https://github.com/ikhodabande/30JavaScript-Projects/blob/main/javascript-in-react/src/assets/30Projects.png"/>
 
