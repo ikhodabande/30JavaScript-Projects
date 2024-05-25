@@ -1,10 +1,6 @@
 # Welcome to 30 Days JavaScript Homepage! 🚀<sup>For Free!<sup/>
 
 <img src="https://github.com/ikhodabande/30JavaScript-Projects/blob/main/javascript-in-react/src/assets/30Projects.png"/>
-
-
-# 30 JavaScript Projects in 30 Days 🚀
-
 This repository contains 30 JavaScript projects I completed in 30 days. Each project demonstrates different features and functionalities that can be achieved using JavaScript. Below is a brief description of each project, sorted from Day 1 to Day 30.
 
 ## Day 1: Weather App ☁️
