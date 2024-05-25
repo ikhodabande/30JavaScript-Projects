@@ -267,14 +267,14 @@ An application that searches for images based on user input using an external AP
 - Search for images by keyword
 - Display search results
 
-## Day 30: Image Background Change Effect 🎨
+## Day 30: Image Search Engine 🎨
 
 **Description:**
-An application that changes the background image of a webpage on user interaction.
+An application that Search images from what you Type.
 
 **Features:**
-- Change background image on button click
-- Smooth transition effects
+- Search images on button click
+- unsplash API 
 
 ---
 
