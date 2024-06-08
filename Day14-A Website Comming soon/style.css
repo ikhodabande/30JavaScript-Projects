@@ -73,7 +73,7 @@ video{
   background: rgb(255, 98, 0);
   border: 2px solid rgb(255, 98, 0);
   outline: 0;
-  padding: 8px 24px;
+  padding: 10px 30px;
   margin: 25px 0;
   display: flex;
   border-radius: 20px;
@@ -105,6 +105,7 @@ video{
 
 .launch-time div p {
   font-size: 60px;
+  
 
 }
 
@@ -128,10 +129,12 @@ a{
 
 @keyframes rocket {
   0% {
+   
     bottom: 0%;
     opacity: 0%;
   }
   100% {
+   
     bottom: 105%;
     opacity: 100%;
   }
