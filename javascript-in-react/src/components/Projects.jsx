@@ -28,8 +28,40 @@ import calculator from '../assets/calculator.jpg'
 import beforeafter from '../assets/beforeafter.jpg'
 import agecalculator from '../assets/age caculater.jpg'
 import popup from '../assets/a popup.jpg'
+import Task from './Task'
 
 const Projects = () => {
+  const tasks =[
+{name:weatherapp,id:1},
+todo,
+time,
+texttovoice,
+texttype,
+stopwatch,
+selectmenu,
+searchimg,
+randompass,
+quoteofday,
+Quizapp,
+qrcode,
+productpage,
+passwordtoggle,
+notification,
+noteapp,
+musicplayer,
+minicalendare,
+lounchingwebsite,
+imagegallery,
+formvalidation,
+dragdrop,
+darktoggle,
+cryptocurrency,
+circleprogress,
+calculator,
+beforeafter,
+agecalculator,
+popup,
+  ]
 
   const [showMore, setShowMore] = useState(false);
 
@@ -38,78 +70,49 @@ const Projects = () => {
   };
 
   return (
+    
     <div name="Projects" className='container'>
        <div className='Projects'>
-      <div className='cards' >
-        <img className='img' src={weatherapp} alt="" />
-        <span>Weather App</span>
-      </div>
-      <div className='cards'>
-        <img className='img' src={todo} />
-        <span>ToDo List</span>
-      </div>
-      <div className='cards'>
-        <img className='img' src={time} />
-        <span>Live Clock</span>
-      </div>
-      <div className='cards'>
-        <img className='img' src={texttovoice}/>
-        <span>Text to Voice</span>
-      </div>
-      <div className='cards'>
-        <img className='img' src={texttype} />
-        <span>Typing Effect</span>
-      </div>
-      <div className='cards'>
-        <img className='img' src={stopwatch} />
-        <span>StopWatch</span>
-      </div>
-      <div className='cards'>
-        <img className='img' src={selectmenu} />
-        <span>Select Menu</span>
-      </div>
-      <div className='cards'>
-        <img className='img' src={searchimg}/>
-        <span>Images Searcher</span>
-      </div>
-      <div className='cards'>
-        <img className='img' src={randompass} />
-        <span>Pass Generator</span>
-      </div>
+       {
+      tasks.map((name=>
+        <Task TaskName={name}/>
+      ))
+    }
+
     </div>
     {showMore && (
     <div id='more' className='Projects '>
       <div className='cards' >
-        <img className='img' src={weatherapp} alt="" />
-        <span>Weather App</span>
+        <img className='img' src={quoteofday} alt="" />
+        <span>Quote Of Day</span>
       </div>
       <div className='cards'>
-        <img className='img' src={todo} />
-        <span>ToDo List</span>
+        <img className='img' src={Quizapp} />
+        <span>Quiz app</span>
       </div>
       <div className='cards'>
-        <img className='img' src={time} />
-        <span>Live Clock</span>
+        <img className='img' src={qrcode} />
+        <span>QrCode</span>
       </div>
       <div className='cards'>
-        <img className='img' src={texttovoice}/>
-        <span>Text to Voice</span>
+        <img className='img' src={productpage}/>
+        <span>Product Page</span>
       </div>
       <div className='cards'>
-        <img className='img' src={texttype} />
-        <span>Typing Effect</span>
+        <img className='img' src={passwordtoggle} />
+        <span>Password Toggle</span>
       </div>
       <div className='cards'>
-        <img className='img' src={stopwatch} />
-        <span>StopWatch</span>
+        <img className='img' src={notification} />
+        <span>Notification</span>
       </div>
       <div className='cards'>
-        <img className='img' src={selectmenu} />
-        <span>Select Menu</span>
+        <img className='img' src={noteapp} />
+        <span>Note App</span>
       </div>
       <div className='cards'>
-        <img className='img' src={searchimg}/>
-        <span>Images Searcher</span>
+        <img className='img' src={musicplayer}/>
+        <span>MusicPlayer</span>
       </div>
       <div className='cards'>
         <img className='img' src={randompass} />
