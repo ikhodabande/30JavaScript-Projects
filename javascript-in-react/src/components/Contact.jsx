@@ -4,20 +4,17 @@ const Contact = () => {
   return (
     <div name="Contact" className='contact'>
         <div className='info'>
-          <div>
-           <p>Amir khodabande</p>
-         </div>
          <ul> 
-          <li>home</li>
-          <li>home</li>
-          <li>home</li>
-          <li>home</li>
+          <li></li>
+          <li>ikhodabande.ir</li>
+          <li><a href="https://github.com/ikhodabande1">github</a></li>
+          <li>Resume</li>
          </ul>
          <ul>
-          <li>search</li>
-          <li>search</li>
-          <li>search</li>
-          <li>search</li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
          </ul>
       </div>
       </div>
