@@ -3,7 +3,9 @@ import TitleHomePage from '../components/TitleHomePage'
 
 const Home = () => {
   return (
+    <>
     <TitleHomePage/>
+    </>
   )
 }
 
