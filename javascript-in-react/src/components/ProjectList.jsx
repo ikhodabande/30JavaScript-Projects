@@ -29,7 +29,7 @@ import weatherapp from '../assets/weather app.jpg';
 import time from '../assets/time.jpg';
 
 const projects = [
-  { id: 1, name: '30 Projects', url: 'https://github.com/your-github-username/project1', image: popUp },
+  { id: 1, name: 'Quizapp', url: 'https://github.com/your-github-username/project1', image: Quizapp },
   { id: 2, name: 'A Popup', url: 'https://github.com/your-github-username/project2', image: popUp },
   { id: 3, name: 'Age Calculator', url: 'https://github.com/your-github-username/project3', image: agecaculator },
   { id: 4, name: 'Before After', url: 'https://github.com/your-github-username/project4', image: beforAfter },
