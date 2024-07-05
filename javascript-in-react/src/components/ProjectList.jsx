@@ -1,36 +1,64 @@
-import React from 'react';
+import popUp from '../assets/a popup.jpg';
+import agecaculator from '../assets/age caculater.jpg';
+import beforAfter from '../assets/beforeafter.jpg';
+import calculator from '../assets/calculator.jpg';
+import circleprogress from '../assets/circleprogress.jpg';
+import cryptocurrency from '../assets/cryptocurrency.jpg';
+import darknighttoggle from '../assets/darknighttoggle.jpg';
+import formvalidation from '../assets/formvalidation.jpg';
+import dragdrop from '../assets/drag and drop.jpg';
+import imagegallery from '../assets/image gallery.jpg';
+import lounchingwebsite from '../assets/lounching website.jpg';
+import minicalendare from '../assets/mini calendare.jpg';
+import musicplayer from '../assets/music player.jpg';
+import noteapp from '../assets/note app.jpg';
+import notification from '../assets/notification.jpg';
+import passwordtoggle from '../assets/password toggle.jpg';
+import productpage from '../assets/product pagr.jpg';
+import qrcode from '../assets/qrcode.jpg';
+import Quizapp from '../assets/Quiz app.jpg';
+import quoteofday from '../assets/quoteofday.jpg';
+import randompass from '../assets/random pass.jpg';
+import searchimagez from '../assets/search image.jpg';
+import selectmenu from '../assets/select menu.jpg';
+import stopwatch from '../assets/stopwatch.jpg';
+import texttype from '../assets/text type.jpg';
+import texttovoice from '../assets/texttovoice.jpg';
+import todolist from '../assets/to do list.jpg';
+import weatherapp from '../assets/weather app.jpg';
+import time from '../assets/time.jpg';
 
 const projects = [
-  { id: 1, name: '30 Projects', url: 'https://github.com/your-github-username/project1', image: '/src/assets/30Projects.png' },
-  { id: 2, name: 'A Popup', url: 'https://github.com/your-github-username/project2', image: '/src/assets/a popup.jpg' },
-  { id: 3, name: 'Age Calculator', url: 'https://github.com/your-github-username/project3', image: '/src/assets/age caculater.jpg' },
-  { id: 4, name: 'Before After', url: 'https://github.com/your-github-username/project4', image: '/src/assets/beforeafter.jpg' },
-  { id: 5, name: 'Calculator', url: 'https://github.com/your-github-username/project5', image: '/src/assets/calculator.jpg' },
-  { id: 6, name: 'Circle Progress', url: 'https://github.com/your-github-username/project6', image: '/src/assets/circleprogress.jpg' },
-  { id: 7, name: 'Cryptocurrency', url: 'https://github.com/your-github-username/project7', image: '/src/assets/cryptocurrency.jpg' },
-  { id: 8, name: 'Dark Night Toggle', url: 'https://github.com/your-github-username/project8', image: '/src/assets/darknighttoggle.jpg' },
-  { id: 9, name: 'Drag and Drop', url: 'https://github.com/your-github-username/project9', image: '/src/assets/drag and drop.jpg' },
-  { id: 10, name: 'Form Validation', url: 'https://github.com/your-github-username/project10', image: '/src/assets/formvalidation.jpg' },
-  { id: 11, name: 'Image Gallery', url: 'https://github.com/your-github-username/project11', image: '/src/assets/image gallery.jpg' },
-  { id: 12, name: 'Launching Website', url: 'https://github.com/your-github-username/project12', image: '/src/assets/lounching website.jpg' },
-  { id: 13, name: 'Mini Calendar', url: 'https://github.com/your-github-username/project13', image: '/src/assets/mini calendare.jpg' },
-  { id: 14, name: 'Music Player', url: 'https://github.com/your-github-username/project14', image: '/src/assets/music player.jpg' },
-  { id: 15, name: 'Note App', url: 'https://github.com/your-github-username/project15', image: '/src/assets/note app.jpg' },
-  { id: 16, name: 'Notification', url: 'https://github.com/your-github-username/project16', image: '/src/assets/notification.jpg' },
-  { id: 17, name: 'Password Toggle', url: 'https://github.com/your-github-username/project17', image: '/src/assets/password toggle.jpg' },
-  { id: 18, name: 'Product Page', url: 'https://github.com/your-github-username/project18', image: '/src/assets/product pagr.jpg' },
-  { id: 19, name: 'QRCode', url: 'https://github.com/your-github-username/project19', image: '/src/assets/qrcode.jpg' },
-  { id: 20, name: 'Quiz App', url: 'https://github.com/your-github-username/project20', image: '/src/assets/Quiz app.jpg' },
-  { id: 21, name: 'Quote of the Day', url: 'https://github.com/your-github-username/project21', image: '/src/assets/quoteofday.jpg' },
-  { id: 22, name: 'Random Password', url: 'https://github.com/your-github-username/project22', image: '/src/assets/random pass.jpg' },
-  { id: 23, name: 'Search Image', url: 'https://github.com/your-github-username/project23', image: '/src/assets/search image.jpg' },
-  { id: 24, name: 'Select Menu', url: 'https://github.com/your-github-username/project24', image: '/src/assets/select menu.jpg' },
-  { id: 25, name: 'Stopwatch', url: 'https://github.com/your-github-username/project25', image: '/src/assets/stopwatch.jpg' },
-  { id: 26, name: 'Text Type', url: 'https://github.com/your-github-username/project26', image: '/src/assets/text type.jpg' },
-  { id: 27, name: 'Text to Voice', url: 'https://github.com/your-github-username/project27', image: '/src/assets/texttovoice.jpg' },
-  { id: 28, name: 'Time', url: 'https://github.com/your-github-username/project28', image: '/src/assets/time.jpg' },
-  { id: 29, name: 'To Do List', url: 'https://github.com/your-github-username/project29', image: '/src/assets/to do list.jpg' },
-  { id: 30, name: 'Weather App', url: 'https://github.com/your-github-username/project30', image: '/src/assets/weather app.jpg' },
+  { id: 1, name: '30 Projects', url: 'https://github.com/your-github-username/project1', image: popUp },
+  { id: 2, name: 'A Popup', url: 'https://github.com/your-github-username/project2', image: popUp },
+  { id: 3, name: 'Age Calculator', url: 'https://github.com/your-github-username/project3', image: agecaculator },
+  { id: 4, name: 'Before After', url: 'https://github.com/your-github-username/project4', image: beforAfter },
+  { id: 5, name: 'Calculator', url: 'https://github.com/your-github-username/project5', image: calculator },
+  { id: 6, name: 'Circle Progress', url: 'https://github.com/your-github-username/project6', image: circleprogress},
+  { id: 7, name: 'Cryptocurrency', url: 'https://github.com/your-github-username/project7', image:cryptocurrency },
+  { id: 8, name: 'Dark Night Toggle', url: 'https://github.com/your-github-username/project8', image:darknighttoggle },
+  { id: 9, name: 'Drag and Drop', url: 'https://github.com/your-github-username/project9', image: dragdrop },
+  { id: 10, name: 'Form Validation', url: 'https://github.com/your-github-username/project10', image: formvalidation },
+  { id: 11, name: 'Image Gallery', url: 'https://github.com/your-github-username/project11', image: imagegallery },
+  { id: 12, name: 'Launching Website', url: 'https://github.com/your-github-username/project12', image: lounchingwebsite },
+  { id: 13, name: 'Mini Calendar', url: 'https://github.com/your-github-username/project13', image: minicalendare },
+  { id: 14, name: 'Music Player', url: 'https://github.com/your-github-username/project14', image: musicplayer },
+  { id: 15, name: 'Note App', url: 'https://github.com/your-github-username/project15', image: noteapp },
+  { id: 16, name: 'Notification', url: 'https://github.com/your-github-username/project16', image: notification },
+  { id: 17, name: 'Password Toggle', url: 'https://github.com/your-github-username/project17', image: passwordtoggle },
+  { id: 18, name: 'Product Page', url: 'https://github.com/your-github-username/project18', image: productpage },
+  { id: 19, name: 'QRCode', url: 'https://github.com/your-github-username/project19', image: qrcode },
+  { id: 20, name: 'Quiz App', url: 'https://github.com/your-github-username/project20', image: Quizapp },
+  { id: 21, name: 'Quote of the Day', url: 'https://github.com/your-github-username/project21', image: quoteofday },
+  { id: 22, name: 'Random Password', url: 'https://github.com/your-github-username/project22', image: randompass },
+  { id: 23, name: 'Search Image', url: 'https://github.com/your-github-username/project23', image: searchimagez },
+  { id: 24, name: 'Select Menu', url: 'https://github.com/your-github-username/project24', image: selectmenu},
+  { id: 25, name: 'Stopwatch', url: 'https://github.com/your-github-username/project25', image: stopwatch },
+  { id: 26, name: 'Text Type', url: 'https://github.com/your-github-username/project26', image: texttype },
+  { id: 27, name: 'Text to Voice', url: 'https://github.com/your-github-username/project27', image: texttovoice },
+  { id: 28, name: 'Time', url: 'https://github.com/your-github-username/project28', image: time },
+  { id: 29, name: 'To Do List', url: 'https://github.com/your-github-username/project29', image: todolist },
+  { id: 30, name: 'Weather App', url: 'https://github.com/your-github-username/project30', image: weatherapp },
 ];
 
 const ProjectList = ({ language }) => {
